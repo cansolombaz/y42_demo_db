@@ -206,5 +206,17 @@
     }
   },
   "created_at": "2022-06-13T16:27:37.231970+00:00",
-  "_signature": "Do6a6yIIu7ryD30wyvyOk7/ib2wc6vpgLvS4fSPF+pEIgSu+8B+1tuUhMa1N4kRz9AETsMjb7HyK1+Nf6U0DBw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-13T16:29:10.558322+00:00",
+    "external_state": {
+      "SystemModstamp": "2022-06-13T16:08:16Z",
+      "schema_hash": "978399d6c140336489f7101a3ec8b522"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "ea0d5d5e-fc03-4b6f-bf53-e62e1825fc77",
+    "storage_file": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/tap-salesforce/106d2f1b-9536-4661-a411-3331f1f54efd",
+    "partial": false
+  },
+  "_signature": "vwLfsv7n9cutX85zxI7yaz6ylEmwyeKe3lCc7NfypK10p4k6njfQOlow5Ucne/Mq0P1SEcgPHnOGRCuM/H7nAA=="
 }

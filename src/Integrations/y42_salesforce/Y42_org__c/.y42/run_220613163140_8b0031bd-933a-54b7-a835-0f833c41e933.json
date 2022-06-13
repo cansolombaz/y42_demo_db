@@ -1,0 +1,69 @@
+{
+  "request_id": "220613163140_8b0031bd-933a-54b7-a835-0f833c41e933",
+  "status": "pending",
+  "request": {
+    "source_credentials": "acdd16f3-150a-4cca-893d-7cfd65d4fa88",
+    "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/salesforce/0.0.0/source.json",
+      "start_date": "2022-01-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/salesforce/0.0.0/table",
+      "columns": [
+        "Id",
+        "IsDeleted",
+        "Name",
+        "CurrencyIsoCode",
+        "CreatedDate",
+        "CreatedById",
+        "LastModifiedDate",
+        "LastModifiedById",
+        "SystemModstamp",
+        "LastActivityDate",
+        "LastViewedDate",
+        "LastReferencedDate",
+        "CurrentActivationScore__c",
+        "Account__c",
+        "Number_of_users__c",
+        "Model_Score_past_7_days__c",
+        "Activity_Score_past_7_days__c",
+        "Dashboard_Score_past_7_days__c",
+        "Created_at_Date__c",
+        "Days_to_Activation__c",
+        "Last_Activity_Date_recorded__c",
+        "Days_since_last_activity__c",
+        "Model_Activation_Score__c",
+        "Integrate_Activation_Score__c",
+        "Visualize_Activation_Score__c",
+        "Orchestrate_Activation_Score__c",
+        "is_activated__c"
+      ],
+      "import": "Y42_org__c"
+    },
+    "created_at": "2022-06-13T16:31:40.933319+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/y42_salesforce/Y42_org__c",
+        "id": "103:84f51049-0fe3-4322-8b74-8f92ad02ad04",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "cansolombaz",
+        "repo": "y42_demo_db",
+        "commit_sha": "5ca2eb14f80eb87582a3c30f8fa54fd27a16f27d"
+      }
+    },
+    "context": {
+      "company_id": 103,
+      "company_slug": "demo-test",
+      "triggered_by_type": "user",
+      "triggered_by_id": "202",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-13T16:31:40.933319+00:00",
+  "_signature": "k7KTDqr/kwH5zf6A7pSmDlMJAGLNP4j36uyA+UKRgEdOOhBb//nN0BmZlQ0DgThxpKYoKwqhP6l1YULtVsOUAw=="
+}

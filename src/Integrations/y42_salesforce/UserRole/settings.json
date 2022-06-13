@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/salesforce/0.0.0/table",
+  "columns": [
+    "Id",
+    "OpportunityAccessForAccountOwner",
+    "CaseAccessForAccountOwner",
+    "ContactAccessForAccountOwner",
+    "PortalAccountId",
+    "PortalAccountOwnerId"
+  ],
+  "import": "UserRole"
+}

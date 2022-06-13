@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/salesforce/0.0.0/table",
+  "columns": [
+    "Id",
+    "IsDeleted",
+    "Name",
+    "CurrencyIsoCode",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "LastActivityDate",
+    "LastViewedDate",
+    "LastReferencedDate",
+    "Contact__c",
+    "Y42_org__c",
+    "Linked_Contact_Record__c",
+    "Logins_past_7_days__c",
+    "Page_Views_past_7_days__c",
+    "Activity_Score_past_7_days__c",
+    "Last_Activity_Date__c",
+    "Y42_user_Id__c"
+  ],
+  "import": "Y42_org_user__c"
+}

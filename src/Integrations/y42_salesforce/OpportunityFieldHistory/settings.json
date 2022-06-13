@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/salesforce/0.0.0/table",
+  "columns": [
+    "Id",
+    "IsDeleted",
+    "OpportunityId",
+    "CreatedById",
+    "CreatedDate",
+    "Field",
+    "DataType",
+    "OldValue",
+    "NewValue"
+  ],
+  "import": "OpportunityFieldHistory"
+}

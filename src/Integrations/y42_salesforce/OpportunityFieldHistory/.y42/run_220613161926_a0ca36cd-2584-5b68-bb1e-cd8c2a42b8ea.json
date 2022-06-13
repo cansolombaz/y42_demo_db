@@ -1,6 +1,6 @@
 {
   "request_id": "220613161926_a0ca36cd-2584-5b68-bb1e-cd8c2a42b8ea",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "acdd16f3-150a-4cca-893d-7cfd65d4fa88",
     "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
@@ -57,7 +57,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "7e9a3f22-14f9-4bf9-b2c7-3e37ecff5904",
     "storage_file": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/tap-salesforce/a309ee28-3033-4c58-b24c-a3b41164d328",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-13T16:21:19.859693+00:00",
+    "row_count": 536,
+    "current_import_row_count": 536,
+    "size_in_bytes": 54679,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "isdeleted",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "opportunityid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "createdbyid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "createddate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "field",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "datatype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "oldvalue",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "newvalue",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220613161926_a0ca36cd-2584-5b68-bb1e-cd8c2a42b8ea",
+    "external_url": "https://console.cloud.google.com/bigquery?p=single-station-305113&d=y42_demo_7c38979eee7e4d6abe477a6978ae2121&t=220613161926_a0ca36cd-2584-5b68-bb1e-cd8c2a42b8ea&page=table"
   },
-  "_signature": "eCto+X8RF5j9OlrvPDruMxd6/mFHXqbePXmnjOWaW/zZsCIVQlH6cfgSsM+qLDfwN4ipEfHX7TixeZAU7drFAQ=="
+  "finished_at": "2022-06-13T16:21:19.859795+00:00",
+  "_signature": "Tx5a/7o8DQmM+rzMImipZIZGf/KrCmurhs/NUpKuzJ0UHelaP0XrmSYcM1CLTEh9TnsENUSpTfMbAH2EUQU2CQ=="
 }

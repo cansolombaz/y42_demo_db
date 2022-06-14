@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_demo_7c38979eee7e4d6abe477a6978ae2121/o?uploadType=resumable&upload_id=ADPycduHugh8TYvHcHCeEg-vmWTdUnsIEfjvCAk4My3bEPJhal2v_Fq4pncBmh_ZvP77ifKDytRtzI5ELn5dTTHP55huLQ",
+  "originalName": "Beginner's Journey Shopify Data.csv",
+  "size": "4565556",
+  "uri": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/103/file-upload/5773925f-7022-42e9-bb61-d81050afa7fe",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}

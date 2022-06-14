@@ -1,0 +1,329 @@
+{
+  "request_id": "220614110313_73c7578d-cc8a-562b-a882-3c8cb4fb575b",
+  "status": "ready",
+  "request": {
+    "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/file-upload/0.0.0/table.json",
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_demo_7c38979eee7e4d6abe477a6978ae2121/o?uploadType=resumable&upload_id=ADPycdtIKBnFUsUbdxTIwq1UMQVGh9JmyZcVk984NXjkl8RsvBN-EpDKTNO08h_T-1X1nYjFju4j4mZ1kNeG7B95Skr3rw",
+      "originalName": "Beginner's Journey Facebook Ads Data.xlsx",
+      "size": "341564",
+      "uri": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/103/file-upload/f8a62005-0bbf-4864-9d99-bda459a761e2",
+      "identifier": "ads_insights",
+      "_signature": "fbupXjZ3e6LxFkHDB9rnP2K+LtiID4OJvsdHSY2pwvUQGFdbq+n1vEG+g7y18CarLgAZ614CVlHc/W1cfKuMBw=="
+    },
+    "created_at": "2022-06-14T11:03:13.171584+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/AdSpend/Beginner's Journey Facebook Ads Data.xlsx",
+        "id": "103:84f51049-0fe3-4322-8b74-8f92ad02ad04",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "cansolombaz",
+        "repo": "y42_demo_db",
+        "commit_sha": "1c136110bd3992d435f8c074ba1ec9a97798ae6b"
+      }
+    },
+    "context": {
+      "company_id": 103,
+      "company_slug": "demo-test",
+      "triggered_by_type": "user",
+      "triggered_by_id": "108",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-14T11:03:13.171584+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-14T11:03:48.662430+00:00",
+    "external_state": {
+      "file_identifier": "ads_insights"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "5eedf170-5dc1-4f55-a60e-996bc2a338a3",
+    "storage_file": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/103/file-upload/bd379b96-4951-4d6c-b89e-fbb5cce4e124",
+    "partial": false,
+    "import_finished_at": "2022-06-14T11:04:01.235402+00:00",
+    "row_count": 1451,
+    "current_import_row_count": 1451,
+    "size_in_bytes": 3909257,
+    "columns": [
+      {
+        "field_name": "index",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "account_currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "account_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ad_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "canvas_avg_view_percent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "canvas_avg_view_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "conversion_rate_ranking",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "cost_per_inline_link_click",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost_per_inline_post_engagement",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost_per_unique_click",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost_per_unique_inline_link_click",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cpc",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cpm",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cpp",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_stop",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "engagement_rate_ranking",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "inline_link_click_ctr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "inline_link_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "inline_post_engagement",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "objective",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "quality_ranking",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "social_spend",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_ctr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_inline_link_click_ctr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_inline_link_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "unique_link_clicks_ctr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "action_values",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "conversions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "cost_per_action_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "cost_per_conversion",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "cost_per_unique_action_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "outbound_clicks",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unique_actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "video_30_sec_watched_actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "video_p100_watched_actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "video_p25_watched_actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "video_p50_watched_actions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "video_p75_watched_actions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220614110313_73c7578d-cc8a-562b-a882-3c8cb4fb575b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=single-station-305113&d=y42_demo_7c38979eee7e4d6abe477a6978ae2121&t=220614110313_73c7578d-cc8a-562b-a882-3c8cb4fb575b&page=table"
+  },
+  "finished_at": "2022-06-14T11:04:01.235584+00:00",
+  "_signature": "iL1LOfpbVIvqJXToEXF+sZZlzjIHcOHqqb+T9UWzF2QS2evV+gLoFFMeZMSKID6ckk0BgbvEm/NmBpypl0QOBg=="
+}

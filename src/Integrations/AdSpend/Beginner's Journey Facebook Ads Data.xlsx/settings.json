@@ -1,0 +1,10 @@
+{
+  "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/file-upload/0.0.0/table.json",
+  "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_demo_7c38979eee7e4d6abe477a6978ae2121/o?uploadType=resumable&upload_id=ADPycdtIKBnFUsUbdxTIwq1UMQVGh9JmyZcVk984NXjkl8RsvBN-EpDKTNO08h_T-1X1nYjFju4j4mZ1kNeG7B95Skr3rw",
+  "originalName": "Beginner's Journey Facebook Ads Data.xlsx",
+  "size": "341564",
+  "uri": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/103/file-upload/f8a62005-0bbf-4864-9d99-bda459a761e2",
+  "identifier": "ads_insights",
+  "_signature": "fbupXjZ3e6LxFkHDB9rnP2K+LtiID4OJvsdHSY2pwvUQGFdbq+n1vEG+g7y18CarLgAZ614CVlHc/W1cfKuMBw=="
+}

@@ -1,0 +1,38 @@
+{
+  "request_id": "220614165332_1023fd89-adfb-513e-bea5-b4912b3d007e",
+  "status": "pending",
+  "request": {
+    "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "fae1baa6-63c7-43a2-84da-507473fea6f3"
+    },
+    "created_at": "2022-06-14T16:53:32.797649+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/salesforce_customer/salesforce_customer",
+        "id": "103:84f51049-0fe3-4322-8b74-8f92ad02ad04",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "cansolombaz",
+        "repo": "y42_demo_db",
+        "commit_sha": "db89df4afbffa277a13d7d946b751d0e836f3975"
+      }
+    },
+    "context": {
+      "company_id": 103,
+      "company_slug": "demo-test",
+      "triggered_by_type": "user",
+      "triggered_by_id": "202",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-14T16:53:32.797649+00:00",
+  "_signature": "q8y2XTHe7XPEmYV5VLsbJmJLAxPoMn9grPb9UiJswSi7e48LI4dXKIxsZAvvpoxaOnCGn0lmy4Br51XVpEJ0CQ=="
+}

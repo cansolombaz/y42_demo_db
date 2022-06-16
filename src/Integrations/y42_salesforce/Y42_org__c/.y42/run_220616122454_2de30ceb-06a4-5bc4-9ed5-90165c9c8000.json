@@ -1,6 +1,6 @@
 {
   "request_id": "220616122454_2de30ceb-06a4-5bc4-9ed5-90165c9c8000",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "acdd16f3-150a-4cca-893d-7cfd65d4fa88",
     "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
@@ -75,7 +75,151 @@
     "write_disposition": "TRUNCATE",
     "external_id": "375c3191-896f-4035-ba42-11df16d4a03f",
     "storage_file": "gs://y42_demo_7c38979eee7e4d6abe477a6978ae2121/userUploads/v2/tap-salesforce/77f7de62-7cb9-43bf-9667-7977df222b49",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-16T12:26:52.852754+00:00",
+    "row_count": 100,
+    "current_import_row_count": 100,
+    "size_in_bytes": 21327,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "isdeleted",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "currencyisocode",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "createddate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "createdbyid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "lastmodifieddate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "lastmodifiedbyid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "systemmodstamp",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "lastactivitydate",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "lastvieweddate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "lastreferenceddate",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "currentactivationscore_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "number_of_users_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "model_score_past_7_days_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "activity_score_past_7_days_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "dashboard_score_past_7_days_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "created_at_date_c",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "days_to_activation_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "last_activity_date_recorded_c",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "days_since_last_activity_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "model_activation_score_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "integrate_activation_score_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "visualize_activation_score_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "orchestrate_activation_score_c",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "is_activated_c",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220616122454_2de30ceb-06a4-5bc4-9ed5-90165c9c8000",
+    "external_url": "https://console.cloud.google.com/bigquery?p=single-station-305113&d=y42_demo_7c38979eee7e4d6abe477a6978ae2121&t=220616122454_2de30ceb-06a4-5bc4-9ed5-90165c9c8000&page=table"
   },
-  "_signature": "cICPMW3mYpKikMd8060tiPclAt2hIu7TfNrWSsY8bqNRFvSFk1TgBFDFV7KxSETeW+qjj9q7VUPhIxquOSZxAQ=="
+  "finished_at": "2022-06-16T12:26:52.852964+00:00",
+  "_signature": "QBpUHodjHZIrnszaO6vlq1zUHAxWpeU/EHtP4oHFcZ3lL0vd6HXlOFVGw/Lh3i3gkHvL4jK+kvV2RGmOJSKbAQ=="
 }

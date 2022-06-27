@@ -1,6 +1,6 @@
 {
   "request_id": "220627105025_98548805-5127-5f61-8363-d78e6b71603d",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "4ce3dea4-bb97-43b0-86ff-31e65c5dd899",
     "source_settings": {
@@ -34,5 +34,83 @@
     }
   },
   "created_at": "2022-06-27T10:50:25.349703+00:00",
-  "_signature": "458eDPo432rRGQt1IkuW80+nJsoRAvmHmW98T1ec2G3tRSkc4AhlgPfd8WxivBBLKPW5p1p7GvUSncO5bcmOCQ=="
+  "finished_at": "2022-06-27T10:50:47.047122+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-27T10:50:47.046966+00:00",
+    "row_count": 98,
+    "current_import_row_count": 98,
+    "size_in_bytes": 17140,
+    "external_id": "89b7650a-c185-43b0-b42b-6444bc48a66d",
+    "columns": [
+      {
+        "field_name": "sf_account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sf_account_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sf_account_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sf_owner_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "hs_company_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "poc_start_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "poc_end_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "is_in_poc",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "sf_y42org_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "slug",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "activity_score_past_7_days",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "sf_owner_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sf_owner_email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220627105025_98548805-5127-5f61-8363-d78e6b71603d",
+    "external_url": "https://console.cloud.google.com/bigquery?p=single-station-305113&d=y42_demo_7c38979eee7e4d6abe477a6978ae2121&t=220627105025_98548805-5127-5f61-8363-d78e6b71603d&page=table"
+  },
+  "_signature": "ZMK+C5At5ctLLuBES7ax3SkhOkqUVzJ86FWnWB0XlCfFRveTpLKXO/kE6C32LZlzhDkc98HIXAiUzJEPLUdhBQ=="
 }

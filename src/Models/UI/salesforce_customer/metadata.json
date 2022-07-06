@@ -1,10 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "salesforce_customer",
   "description": "combine data from y42 orgs and users with salesforce accounts information",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }
